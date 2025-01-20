@@ -1,0 +1,446 @@
+body{
+    font-family: "Roboto Mono", monospace;
+    color: #434455;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin: 0%;
+    padding: 0%;
+    }
+    
+    img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    a{
+        text-decoration: none;
+        /* border: nz; */
+        color: black;
+    }
+    
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1,h2,h3,p{
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    /* --------------------- */
+    /* Налаштування першої секції */
+
+    .header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+    
+    .header-left {
+        font-weight: bold;
+  
+    }
+    
+    .header-right ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .header-right ul li {
+        margin-right: 60px;
+
+
+    }
+    .header-link{
+        font-family: "Montserrat";
+        font-weight: 300;
+    }
+    .circles {
+        display: flex;
+        
+    }
+    
+    .circle {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: #7D9C61;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        margin-right: 40px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .circle:hover,
+.circle:focus {
+    background-color: #537036;
+}
+/* --------------------------------------------
+ */
+ .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), #7D9C61) ,url(./attorney-talking-on-mobile-device-and-playing-AHS39TU-min.jpg);
+    text-align: center;
+    background-size: cover;
+  background-repeat: no-repeat;
+    padding: 0 100px;
+
+}
+
+.hero-content {
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+.layer {
+    font-size: 44px;
+    margin-bottom: 10px;
+    margin: 100px 150px;
+    color: #FFFFFF;
+    font-family: "Playfair Display";
+
+}
+
+.consultation-btn {
+    background-color: #7D9C61; /* Зелений колір */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Montserrat";
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: 300;
+    border: none;
+margin-bottom: 150px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.consultation-btn:hover,
+.consultation-btn:focus {
+    background-color: #537036;
+}
+.header-menu{
+    background-color: #7D9C61; /* Зелений колір */
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: "Montserrat", monospace;
+    cursor: pointer;
+    border-radius: 20px;
+    
+    border: none;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-menu:hover,
+.header-menu:focus {
+    background-color: #537036;
+}
+
+
+/* ------------------------------------------------- */
+
+
+.main-1{
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+background: #7D9C61;
+}
+
+.poslugi-header{
+    margin-top: 150px;
+    font-size: 36px;
+    margin-bottom: 150px;
+    font-family: "Montserrat";
+    text-align: center;
+    color: black;
+    font-size: 36pt;
+    font-weight: 300;
+}
+
+.second-main-list{
+display: flex;
+justify-content: space-around;
+gap: 150px;
+}
+
+.second-main-items{
+    width: 450px;
+    height: 375px;
+    background-color: #7D9C61;
+    font-weight: 300;
+    padding: 25px;
+    border-radius: 25px;
+    border-color: #FFFFFF;
+    font-family: "Montserrat";
+text-align: justify;
+margin-bottom: 50px;
+color: #FFFFFF;
+}
+
+/* --------------------------------------------------------- */
+
+.footer{
+    height: auto;
+    width: auto;
+    font-family: "Montserrat";
+    color: #FFFFFF;
+    padding: 70px 0px;
+    background: linear-gradient(180deg, #7D9C61 ,#c4e0aa);
+    
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 50px;
+    margin: 0 auto;
+    
+}
+.gooogle-maps-img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+    
+    border-radius: 25px;
+}
+.footer-sm-header{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-right: 30px;
+   
+}
+.location-dscb{
+    width: 250px;
+}
+.icons-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contacts-list{
+    line-height: 2.5;
+}
+.header-contact-list{
+    margin-bottom: 60px;
+}
+
+
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.full-modal-form{
+   
+    background-color: #7D9C61;
+    width: auto;
+    font-family: "Montserrat";
+    color: #FFFFFF;
+    border-radius: 4px;
+
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.20); 
+    
+    padding: 72px 24px 24px 574px;
+
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #7D9C61;
+}
+
+
+
+.title-par{
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    margin-bottom: 36px;
+    text-align: start;
+}
+.modal-input{
+    width: 80%;
+    height: 40px;
+    flex-shrink: 0;
+    padding-left: 38px;
+    border-radius: 4px;
+    background-color: transparent; 
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid var(--NAVY-BLUE-modal , #7D9C61);
+}
+.modal-input:focus {
+    border-color: #7D9C61;
+}
+.svg-input{
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-input:focus + .svg-input{
+    fill: #ffffff;
+}
+
+.tel-svg{
+    position: absolute;
+    left: 0;
+    margin-left: 16px;
+    margin-bottom: 8px;
+    margin-top: 11px;
+}
+.email-svg{
+    position: absolute;
+    left: 0;
+    margin-left: 16px;
+    margin-bottom: 8px;
+}
+.modal-label{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    display: block;
+    margin-bottom: 4px;
+}
+.inside-input{
+    position: relative;
+}
+.info-input{
+margin-bottom: 8px;
+width: 100%;
+}
+.texar-com{
+    width: 360px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+}
+.check{
+    display: inline-block;
+}
+.priv-par{
+    color: var(--LIGHT-SLATE, #8E8F99);
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+}
+.priv-pol{
+    color: var(--IRIS, #4D5AE5);
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+   text-decoration-line: underline;
+   width: 16px;
+   height: 16px;
+   border: 1px solid rgba(46, 47, 66, 0.4); 
+   border-radius: 2px; 
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   display: inline-flex; 
+   align-items: center;
+   justify-content: center;
+   fill: transparent;
+   border: 1px solid rgba(46, 47, 66, 0.4); 
+
+}
+
+.txt-container{
+    width: 100%;
+    margin-bottom: 16px;
+}
+.texar-com{
+    width: 80%;
+    height: 120px; 
+    font-size: 12px; 
+    line-height: 1.17;
+    letter-spacing: 0.04em; 
+    color: rgba(46, 47, 66, 0.4); 
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background-color: #7D9C61; 
+
+    padding: 8px 16px; 
+    outline: transparent; 
+    resize: none; 
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.texar-com::placeholder {
+color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+font-family: 'Roboto';
+font-size: 12px;
+line-height: 1.17; 
+letter-spacing: 0.02em;
+}
+.texar-com:focus{
+    border-color: #7D9C61;
+}      
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip-path: inset(100%);
+  white-space: nowrap; 
+  overflow: hidden;
+}
+
+.priv-link {
+color: var(--IRIS, #7D9C61);
+font-family: 'Roboto', sans-serif;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+text-decoration-line: underline;
+}
+.submit-btn{
+    background-color: #7D9C61; /* Зелений колір */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Montserrat";
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: 300;
+margin-bottom: 150px;
+border-color: #FFFFFF;
+border-width: 1px; 
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+align-items: center;
+}
+.submit-btn:hover,
+.submit-btn:focus {
+    background-color: #537036;
+}
